@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" type="text/css" href="../styles/index.css">
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav class="nav-menu">
+     <ul id="top-menu" class="menu">
+       <li><a href="../index.html" id="nav-menu">Inicio<img src="./img/casita.png"></a></li>
+       <li><a href="./pages/menu.html" id="nav-menu">Nuestro menú<img src="./img/cubiertos.jpg"></a></li>
+       <li><a href="contacto.html" id="nav-menu">Contacto<img src="./img/contacto.jpg"></a><a href="trabajo.html" id="nav-menu" style="margin-left: 20px;">Trabajá con nosotros<img src="img/contacto.jpg"></a></li>
+     </ul>
+   </nav></header>
+ <h1 class="h1-trabajo">¿Querés trabajar con nosotros?</h1> 
+ <h3 class="h3-trabajo">Llená este formulario y pronto nos pondremos en contacto contigo para más información.</h3>
+ <fieldset>
+  <form action="" method="get" enctype="application/x-www-form-urlencoded" class="google-mapa">
+
+   <label for="nombre" class="form-trabajo">Nombre</label> <br>
+   <input type="text" name="nombre" id="nombre" class="form-trabajo"><br>
+
+   <label for="apellido">Apellido</label> <br>
+   <input type="text" name="apellido" id="apellido"><br>
+   
+   <label for="email">Email</label> <br>
+   <input type="email" name="email" id="email"><br>
+
+   <label for="numero">Número de teléfono</label><br>
+   <input type="text" name="numero" id="numero"><br>
+<br>
+   <label for="mensaje">¿Por qué deberíamos aceptarte?</label><br>
+   <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea><br>
+
+   <input type="submit" value="Enviar formulario"/>
+   <input type="reset" value="Limpiar formulario"/>
+
+   <div>Turno diurno</div>
+   <input type="radio" name="turno" value="diurno"/>
+   <div>Turno nocturno</div>
+   <input type="radio" name="turno" value="nocturno"/> 
+  </form>
+ </fieldset>
+ <h2>Gracias por tu atención!</h2>
+
+ <div>
+  <footer>
+  <div class="footer-index">
+ 
+ 
+   <div id="footer-izquierda" class="footer-seccion">
+     <p id="contacto-email" class="contacto-info">breakingbar@gmail.com</p>
+     <p id="telefono-de-contacto" class="contacto-info">Teléfono: 1135123224</p>
+   </div>
+   <div id="footer-medio" class="footer-seccion">
+     <p id="horas-que-abrimos" class="titulo-seccion">ESTAMOS ABIERTOS DE:</p>
+     <ul id="horas-lista">
+       <li>Domingo a jueves: de 18:00 hasta 2:00 hrs</li>
+       <li>Martes: CERRADO</li>
+       <li>Viernes y sábado: de 18:00 hasta 3:00 hrs</li>
+     </ul>
+   </div>
+   <div id="footer-derecha" class="footer-section">
+     <p id="ubicacion" class="ubicacion">Concejal Alberto Rosset 191, B1744 Moreno, Provincia de Buenos Aires</p>
+   </div>
+    </footer>
+   </div>
+</body>
+</html>
