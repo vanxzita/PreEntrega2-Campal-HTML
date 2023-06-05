@@ -34,6 +34,7 @@ body {
  background-color: #045d1d;
  color: #fff;
  padding: 10px;
+justify-content:space-between;
 }
 
 .nav-menu ul {
@@ -110,6 +111,7 @@ font-size:larger;
 
 #CabeceraUno{
   text-align: center;
+  font-size:larger;
 }
 
 .footer-index{
@@ -227,12 +229,18 @@ margin-left: 10px;
   .google-mapa div {
     margin-top: 20px;
   }
-
+  .google-mapa label,
+  .google-mapa input,
+  .google-mapa textarea {
+display: block;
+margin-bottom:10px;
+  }
   .contenido label,
   .contenido input,
   .contenido textarea {
 display: block;
 margin-bottom:10px;
+align-content: center;
   }
 
   .contenido input [type="submit"],
@@ -244,4 +252,49 @@ margin-top:10px;
     justify-content:center;
     align-items:center;
     min-height:100px;
+  }
+
+  .header{
+    text-align:center;
+    font-size:larger;
+  }
+  
+  @media (max-width: 767px){
+    #CabeceraUno {
+      font-size: medium;
+    }
+    .header {
+      font-size: small;
+    }
+    .imagenes-index img {
+      width: 100%;
+      height: auto;
+    }
+    .google-mapa iframe {
+      width: 100%;
+      height: 300px;
+    }
+    
+  .invisible-para-celu{
+    display:none; 
+   }
+  }
+
+  .container
+  {
+margin-bottom:20px;
+background:rgb(144, 143, 143);
+color:#fff;
+text-align:center;
+  }
+
+  .container div{
+    background:#414542;
+    padding:15px;
+    border: 1px solid rgb(50, 120, 195)
+  }
+
+  .container dt{
+font-size:larger;
+font-family: "Kitten", sans-serif;
   }
