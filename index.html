@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" type="text/css" href="./bootstrap/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./styles/index.css">
     <meta charset="UTF-8">
@@ -11,28 +12,48 @@
   
 <body>
 
-    <nav class="nav-menu">
-     <ul id="top-menu" class="menu">
-       <li><a href="./index.html" id="nav-menu">Inicio<img src="./img/casita.png"></a></li>
-       <li><a href="./pages/menu.html" id="nav-menu">Nuestro menú<img src="./img/cubiertos.jpg"></a></li>
-       <li><a href="./pages/contacto.html" id="nav-menu">Contacto<img src="./img/contacto.jpg"></a><a href="./pages/trabajo.html" id="nav-menu" style="margin-left: 20px;">Trabajá con nosotros<img src="img/contacto.jpg"></a></li>
-     </ul>
-   </nav>
+  <main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html">
+        Breaking Bar <img src="/img/breakingbar.jpg" alt="Home">
+      </a>
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/menu.html">Nuestro menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/trabajo.html">Trabajá con nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
       <!-- Nav usado para mostrar los href como columnas arriba de todo, como columnas en las que se puede (nav)egar -->
-  <h1 id="CabeceraUno">Breaking Bar</h1>
+  <h1 class="CabeceraUno">Breaking Bar</h1>
     <div class="header" id="header">
       <header>
-      <img source src="./img/breakingbar.jpg" controls alt="Breaking Bar">
+      <img src="./img/breakingbar.jpg" controls alt="Breaking Bar">
       </header>
       <hr>
      </div>
 <div>
    <section class="imagenes-index">
-      <img src="./img/breakingbar2.png"width="600" height="450"alt="imagen1">
-    <img src="./img/breakingbar1.png"width="600" height="450"alt="imagen2">
-    <img src="./img/breakingbar3.png"width="600" height="450"alt="imagen3">
-    <img src="./img/breakingbar4.png"width="600" height="450"alt="imagen4">
-    <img src="./img/breakingbar5.png"width="600" height="450"alt="imagen5">
+      <img src="./img/breakingbar2.png"alt="imagen1"class="imagen-index">
+    <img src="./img/breakingbar1.png"alt="imagen2">
+    <img src="./img/breakingbar3.png"alt="imagen3">
+    <img src="./img/breakingbar4.png"alt="imagen4">
+    <img src="./img/breakingbar5.png"alt="imagen5">
      </section>
     </div>
    <div  class="google-mapa">
@@ -41,7 +62,7 @@
    </div> </div>
 
 <hr>
-
+</main>
 
 <div>
   <footer>
@@ -55,9 +76,9 @@
    <div id="footer-medio" class="footer-seccion">
      <p id="horas-que-abrimos" class="titulo-seccion">ESTAMOS ABIERTOS DE:</p>
      <ul id="horas-lista">
-       <li>Domingo a jueves: de 18:00 hasta 2:00 hrs</li>
-       <li>Martes: CERRADO</li>
-       <li>Viernes y sábado: de 18:00 hasta 3:00 hrs</li>
+       <li><p>Domingo a jueves: de 18:00 hasta 2:00 hrs</p></li>
+       <li></p>Martes: CERRADO</p></li>
+       <li></p>Viernes y sábado: de 18:00 hasta 3:00 hrs</p></li>
      </ul>
    </div>
    <div id="footer-derecha" class="footer-section">
@@ -65,5 +86,5 @@
    </div>
     </footer>
    </div>
-</body>
+  </body>
 </html>

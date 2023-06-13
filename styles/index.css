@@ -20,13 +20,14 @@ a:hover {
 }
 
 body {
+  font-family: "Sofia", sans-serif;
  background-image: url("../img/fondo1.png");
  background-repeat: no-repeat;
  background-size: cover;
 }
 
 .google-mapa{
- text-align:center;
+align-content: center;
  font-size: larger;
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -97,20 +98,20 @@ color:rgb(231, 9, 57)
 
 .h1-trabajo{
 color:rgb(70, 156, 70);
-text-align: center;
+align-content: center;
 }
 
 .h3-trabajo{
 color:beige;
-text-align:center;
+align-content:center;
 }
 
 legend{
 font-size:larger;
 }
 
-#CabeceraUno{
-  text-align: center;
+.CabeceraUno{
+align-content: center;
   font-size:larger;
 }
 
@@ -285,7 +286,7 @@ margin-top:10px;
 margin-bottom:20px;
 background:rgb(144, 143, 143);
 color:#fff;
-text-align:center;
+align-content:center;
   }
 
   .container div{
@@ -298,3 +299,8 @@ text-align:center;
 font-size:larger;
 font-family: "Kitten", sans-serif;
   }
+
+.imagen-index{
+  width="600" 
+  height="450"
+}
