@@ -1,0 +1,306 @@
+
+ul {
+ list-style: none;
+ padding: 0;
+ margin:0;
+}
+li {
+display: inline;
+margin-right: auto;
+}
+
+dd {
+font-size: 16px;
+}
+/* Para que las descripciones de cada uno de los productos del bar se vean con una letra más chica*/
+
+a:hover {
+color: $secondary-color;
+background-color: $fifth-color;
+}
+
+body {
+ font-family: "Sofia", sans-serif;
+background-image: url("../img/fondo1.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.google-mapa{
+@include centrar-elemento;
+font-size:$font-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-menu {
+background-color: $primary-color;
+color: $fifth-color;
+padding: 10px;
+justify-content:space-between;
+}
+
+.nav-menu {
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+display: inline-block;
+margin-right: 10px;
+}
+/* para los items de las listas */
+
+img {
+height: 20px;
+width: 20px;
+margin-left: 5px;
+}
+
+/* Estilo de las imágenes usadas en el .nav-menú */
+a {
+color: $fifth-color;
+text-decoration: none;
+font-size: 40em;
+}
+}
+
+#top-menu {
+ {
+ display: flex;
+justify-content: space-between;
+@include centrar-elemento;
+background-color: #f2f2f2;
+padding: 20px;
+}
+/* Estilo dado a los elementos del top-menu, como características principales de c/u */
+
+a {
+color: black;
+text-decoration: none;
+margin: 0 10px;
+font-size: 20px;
+}
+/* estilo dado a los elementos "a" en top-menu, para cuando se pasa el mouse por cada solapa*/
+
+#top-menu a:hover {
+color: $fourth-color;
+background-color: $fifth-color;
+padding: 10px;
+border-radius: 5px;
+}
+}
+/* Este "hover" hace que cuando pases el cursor por cada solapa en el menú se coloree del verde seleccionado */
+
+.parrafos{
+color:third-color;
+}
+/* Estilo que le da color a los párrafos */
+
+.h1-trabajo{
+color:fourth-color;
+@include centrar-elemento;
+}
+
+.h3-trabajo{
+color:beige;
+@include centrar-elemento;
+}
+
+legend{
+font-size:$font-large;
+}
+
+.CabeceraUno{
+@include centrar-elemento;
+font-size:$font-large;
+}
+
+.footer-index{
+background-color: black;
+ color: $fifth-color;
+ padding: 20px;
+ display: flex;
+ flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.footer-index p{
+text-align: center;
+text-decoration-color: $fifth-color;
+}
+
+.footer-seccion {
+ flex: 1;
+ margin-right: 20px;
+}
+
+.titulo-seccion {
+ color: $fifth-color;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+.contacto-info,
+.ubicacion {
+ color: $fifth-color;
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+
+#contacto-email {
+ font-weight: bold;
+}
+
+#horas-lista {
+ list-style: none;
+ padding: 0;
+ text-align:center;
+ color:fifth-;
+}
+
+#horas-lista li {
+ margin-bottom: 5px;
+}
+
+#footer-medio{
+ text-align:center;
+}
+
+#footer-derecha{
+ text-align:right;
+}
+
+#footer-izquierda{
+ text-align:left;
+}
+
+.imagenes-index{
+display:flex;
+flex-wrap:nowrap;
+}
+
+.imagenes-index img {
+ width:100%;
+ height:auto;
+}
+
+.menu-categoria{
+ font-weight:bold;
+ margin-bottom:10px;
+}
+
+.menu-descripcion{
+ font-size:14px;
+ color: $fourth-color;
+}
+
+.listas-menu{
+ color:$secondary-color;
+padding: 0;
+margin: 0;
+}
+
+.listas-menu dt{
+margin-bottom: 10px;
+}
+
+.listas-menu dd{
+margin-left: 10px;
+}
+
+.estilo-nuevo{
+ padding: 0;
+ margin: 0;
+}
+
+.menu {
+ margin:0;
+ padding:0;
+ list-style:none;
+}
+
+.menu li {
+ display:inline-block;
+}
+
+.form-trabajo{
+ margin-bottom:10px;
+}
+
+.google-mapa{
+  margin-top: 20px;
+  div{
+ }
+ .google-mapa label,
+ .google-mapa input,
+ .google-mapa textarea {
+display: block;
+margin-bottom:10px;
+}
+}
+
+.contenido{
+  label, input, textarea{
+   @include centrar-elemento
+display: block;
+margin-bottom:10px;
+}
+ }
+
+ .contenido input [type="submit"],
+ .contenido input[type="reset"]{
+margin-top:10px;
+ }
+ .contenido {
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   min-height:100px;
+ }
+
+ .header{
+   text-align:center;
+   font-size:$font-large;
+ }
+ 
+ @media (max-width: 767px){
+   #CabeceraUno {
+    font-size:$font-medium 
+   }
+   .header {
+     font-size: small;
+   }
+   .imagenes-index img {
+     width: 100%;
+     height: auto;
+   }
+   .google-mapa iframe {
+     width: 100%;
+     height: 300px;
+   }
+   
+ .invisible-para-celu{
+   display:none; 
+  }
+ }
+
+ .container
+ {
+margin-bottom:20px;
+background:rgb(144, 143, 143);
+color:$fifth-color;
+align-content:center;
+ }
+
+ .container div{
+   background:#414542;
+   padding:15px;
+   border: 1px solid rgb(50, 120, 195)
+ }
+
+ .container dt{
+  font-size:$font-large;
+font-family: "Kitten", sans-serif;
+ }
